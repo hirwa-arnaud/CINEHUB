@@ -6,7 +6,7 @@
 }
 header{
      width: 100%;
-     height: 10vh;
+     height: 13vh;
      background-color: black;
      color: white;
      display: flex;
@@ -28,3 +28,46 @@ ul input{
     border: none;
     padding: 10px;
 }
+.slider {
+      position: relative;
+      width: 80%;
+      max-width: 800px;
+      margin: 50px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 400%;
+    }
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+      padding: 20px;
+      text-align: center;
+      background: #111;
+    }
+    .slide img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .nav {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    .nav button {
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 5px;
+    }
