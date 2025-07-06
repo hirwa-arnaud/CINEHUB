@@ -238,9 +238,6 @@ ul input{
         .recently h3{
             color: white;
         }
-        .recently{
-            display: flex;
-        }
         .recently img{
             width: 100px;
             height: 150px;
