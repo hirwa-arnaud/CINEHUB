@@ -227,6 +227,10 @@ ul input{
             height: 30vh;
             width: 100%;
             background-color: red;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
         }
         .recently h1{
             color: white;
@@ -234,4 +238,14 @@ ul input{
         .recently h3{
             color: white;
         }
-        
+        .recently{
+            display: flex;
+        }
+        .recently img{
+            width: 100px;
+            height: 150px;
+            border-radius: 10%;
+        }
+        .recently-movies{
+
+        }
