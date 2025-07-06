@@ -224,7 +224,7 @@ ul input{
             color: white;
         }
         .recently{
-            height: 30vh;
+            height: 40vh;
             width: 100%;
             background-color: red;
             display: flex;
@@ -243,6 +243,9 @@ ul input{
             height: 150px;
             border-radius: 10%;
         }
-        .recently-movies{
-
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        padding: 20px;
         }
