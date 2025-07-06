@@ -219,53 +219,12 @@ ul input{
         .next {
             right: 20px;
         }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .movie-title {
-                font-size: 2.5rem;
-            }
-
-            .movie-info {
-                max-width: 100%;
-            }
-
-            .search-input {
-                width: 200px;
-            }
-
-            .nav-left {
-                gap: 15px;
-            }
-
-            .movie-buttons {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .btn {
-                width: fit-content;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .movie-title {
-                font-size: 2rem;
-            }
-
-            .slider-nav {
-                display: none;
-            }
-
-            .nav-container {
-                flex-direction: column;
-                gap: 15px;
-            }
-
-            .search-input {
-                width: 250px;
-            }
-        }
+ 
         h1{
             color: white;
+        }
+        .recently{
+            height: 30vh;
+            width: 100%;
+            background-color: red;
         }
