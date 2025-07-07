@@ -259,3 +259,7 @@ ul input{
             gap: 10px;
             color: white;
         }
+.movies{
+    height: 140vh;
+    width: 100%;
+}
